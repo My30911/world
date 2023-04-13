@@ -17,6 +17,8 @@
         type="input">
     Check
 </button>
+<br>
+<button _onclick="addInput()">click</button> <div id="dv"> </div> <script> function addInput(){ var dv = document.getElementById("dv"); if(dv.getElementsByTagName("input").length == 0){ // input 태그가 있는지 확인 document.getElementById("dv").innerHTML = "<input/>"; } else{ document.getElementById("dv").innerHTML = ""; } } </script>
 <p align=center>...</p>
 <p align=right>..</p>
 <hr size=16 color=AAAAAA >
